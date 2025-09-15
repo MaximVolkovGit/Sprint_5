@@ -6,6 +6,6 @@ class Person:
     password = f'12345Qwe'
 
 class RandomData:
-    user_name = 'Тест'
-    email = f'test_user{randint(0, 999)}@ya.ru'
+    user_name = 'Тестовый'
+    email = f'test_user{randint(0, 9999)}@ya.ru'
     password = f'{randint(1000, 9999)}Qwe'
