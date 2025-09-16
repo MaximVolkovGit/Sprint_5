@@ -26,8 +26,17 @@ class MainPageLocators():
     enter_button = (By.XPATH, "//button[text()='Войти в аккаунт']")  #  Кнопка входа в аккаунт
     order_button = (By.XPATH, "//button[text()='Оформить заказ']") #  Кнопка "Оформить заказ"
     account_button = (By.XPATH, "//p[text()='Личный Кабинет']")  #  Кнопка "Личный кабинет"
+    constructor_button = (By.XPATH, "//p[text()='Конструктор']")  #  Кнопка "Конструктор"
+    assemble_burger_button = (By.XPATH, "//h1[text()='Соберите бургер']")  # Надпись "Соберите бургер"
 
 class RecoveryPageLocators():
     """ Локаторы страницы восстановления пароля"""
 
     enter_button = (By.XPATH, "//a[text()='Войти']")   #  Кнопка "Войти"
+
+class PersonalAccountLocators():
+    ''' Локаторы личного кабинета '''
+
+    exit_button = (By.XPATH, "//button[text()='Выход']") #  Кнопка выхода из аккаунта
+    profile_button = (By.XPATH, "//a[text()='Профиль']")  # Кнопка "Профиль"
+    logo_SB = (By.XPATH, "//div[@class = 'AppHeader_header__logo__2D0X2']")  #  Логотип Stellar Burgers
