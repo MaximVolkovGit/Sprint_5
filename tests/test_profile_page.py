@@ -1,6 +1,5 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from data import Person
 from urls import Urls
 from locators import PersonalAccountLocators, AuthPageLocators, MainPageLocators
 

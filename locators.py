@@ -28,6 +28,16 @@ class MainPageLocators():
     account_button = (By.XPATH, "//p[text()='Личный Кабинет']")  #  Кнопка "Личный кабинет"
     constructor_button = (By.XPATH, "//p[text()='Конструктор']")  #  Кнопка "Конструктор"
     assemble_burger_button = (By.XPATH, "//h1[text()='Соберите бургер']")  # Надпись "Соберите бургер"
+    buns_button = (By.XPATH, ".//span[text() = 'Булки']") #Кнопка переключения на булки
+    sauces_button = (By.XPATH, ".//span[text() = 'Соусы']") #Кнопка переключения на соусы
+    toppings_button = (By.XPATH, ".//span[text() = 'Начинки']") #Кнопка переключения на начинки
+    bun_list = (By.XPATH, "(.//ul[@class = 'BurgerIngredients_ingredients__list__2A-mT'])[1]") #  Список булок на главной странице
+    sauces_list = (By.XPATH, "(.//ul[@class = 'BurgerIngredients_ingredients__list__2A-mT'])[2]") # Список соусов на главной странице
+    topping_list = (By.XPATH, "(.//ul[@class = 'BurgerIngredients_ingredients__list__2A-mT'])[3]") #  Список начинок на главной странице
+    buns = (By.XPATH, ".//h2[text() = 'Булки']") # Раздел "Булки" в списке
+    sauces = (By.XPATH, ".//h2[text() = 'Соусы']") # Раздел "Соусы" в списке
+    toppings = (By.XPATH, ".//h2[text() = 'Начинки']") # Раздел "Начинки" в списке
+
 
 class RecoveryPageLocators():
     """ Локаторы страницы восстановления пароля"""
